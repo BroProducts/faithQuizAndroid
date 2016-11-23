@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "894493186510",
+    "project_id": "faith-game"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894493186510:android:3c59916fb8a96174",
+        "android_client_info": {
+          "package_name": "com.broproducts.faithquiz.faithquizandroid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVZmeljPFup7gnlvvJt3F-f6SplZ5zjio"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-87956269-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
