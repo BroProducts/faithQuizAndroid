@@ -7,6 +7,8 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import com.google.android.gms.ads.MobileAds;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -23,5 +25,7 @@ public class MainActivity extends AppCompatActivity {
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl(url);
         webView.setWebViewClient(new WebViewClient());
+
+        MobileAds.initialize(this, "ca-app-pub-7098553841143781~2915366559");
     }
 }
